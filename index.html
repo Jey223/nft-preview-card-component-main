@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="style.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body class= "bg-blue-card box-border flex justify-center items-center h-screen">
+  <main class="container mx-auto rounded-2xl w-[400px] bg-blue-line p-5 content-center">
+
+    <a href="/" class="relative h-1/2">
+      <img src="./images/image-equilibrium.jpg" class="w-full h-full object-cover rounded-[10px] hover:opacity-90" alt="nft equilibrium">
+      <div class="absolute top-0 left-0 h-full w-full rounded-lg bg-cyan opacity-0 hover:opacity:60"></div>
+      <img src="./images/icon-view.svg" alt="" class="absolute top-1/2 left-1/2 opacity-0 hover:opacity-100">
+    </a>
+
+    <div class="h-1/2">
+
+      <div class="py-5 border-soft-blue border-b-2">
+        <h1 class="font-bold text-white hover:text-cyan"><a href="/"> Equilibrium #3429</a></h1>
+        <p class="pt-1.5 text-soft-blue">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex place-content-between mt-3">
+          <div class="bonus flex text-cyan ">
+            <img src="./images/icon-ethereum.svg" alt="ethereum coin icon" class="pr-1.5 object-contain">  0.041 ETH</div>
+          <div class="time flex text-soft-blue"> <img src="./images/icon-clock.svg" alt="clock icon" class="pr-1.5 object-contain"> 3 days left</div>
+        </div>
+      </div>
+
+      <div class="flex mt-3 ">
+        <img src="./images/image-avatar.png" alt="picture of authur" class=" w-7 h-7 border-2 border-white rounded-full">
+        <p class="ml-4 text-soft-blue">Creation of <a href="/" class=" text-white hover:text-cyan"> Jules Wyvern</a></p>
+    </div>
+
+  </div>
+
+  </main>
+  
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
